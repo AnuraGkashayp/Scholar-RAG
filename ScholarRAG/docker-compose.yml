@@ -1,0 +1,30 @@
+services:
+  qdrant:
+    image: akritiyadav/scholarrag:qdrant-v1
+    restart: always
+
+  backend:
+    image: akritiyadav/scholarrag:backend-v17
+    volumes:
+      - users_data:/app/data
+    env_file:
+      - ./.env
+    environment:
+      - QDRANT_HOST=qdrant
+      - QDRANT_SVC_PORT=6333
+      - DB_PATH=/app/data/users.db
+      - APP_VERSION=v17
+    depends_on:
+      - qdrant
+    restart: on-failure
+
+  frontend:
+    image: akritiyadav/scholarrag:frontend-v3
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  users_data:

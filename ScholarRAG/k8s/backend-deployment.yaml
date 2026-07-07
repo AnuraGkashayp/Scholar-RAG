@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backend
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: akritiyadav/scholarrag:backend-v17
+          ports:
+            - containerPort: 8000
+          env:
+            - name: APP_VERSION
+              value: "v17"
+            - name: QDRANT_HOST
+              value: "qdrant"
+            - name: QDRANT_SVC_PORT
+              value: "6333"
+            - name: ANTHROPIC_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: scholarrag-secret
+                  key: ANTHROPIC_API_KEY
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: scholarrag-secret
+                  key: GITHUB_TOKEN
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: scholarrag-secret
+                  key: HF_TOKEN
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: scholarrag-secret
+                  key: SECRET_KEY
+            - name: DB_PATH
+              value: "/app/data/users.db"
+          volumeMounts:
+            - name: usersdb
+              mountPath: /app/data
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+      volumes:
+        - name: usersdb
+          hostPath:
+            path: /mnt/host
+            type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  selector:
+    app: backend
+  ports:
+    - port: 8000
+      targetPort: 8000

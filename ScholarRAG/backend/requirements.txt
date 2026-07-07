@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+anthropic
+langchain-huggingface
+qdrant-client
+sentence-transformers
+pymupdf
+certifi
+requests
+python-jose
+passlib
+bcrypt==4.0.1
