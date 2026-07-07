@@ -74,13 +74,13 @@ Working on the 3-Tier ScholarRAG Project taught me valuable lessons beyond codin
 
 ### My Contributions
 
-* - Database Engineering (JSON to SQLite)
-* - Nginx Reverse Proxy Configuration
-* - Containerization (Docker)
-* - Kubernetes Deployment
-* - YAML Manifest Configuration
-* - Architecture Design & Triage
-* - Git & GitHub Collaboration
+*  Database Engineering (JSON to SQLite)
+*  Nginx Reverse Proxy Configuration
+*  Containerization (Docker)
+*  Kubernetes Deployment
+*  YAML Manifest Configuration
+*  Architecture Design & Triage
+*  Git & GitHub Collaboration
 
 ---
 
@@ -102,20 +102,20 @@ ScholarRAG
 
 # Technologies Used
 
-* - Python
-* - FastAPI
-* - Docker
-* - Kubernetes
-* - AWS EC2
-* - Qdrant
-* - Sentence Transformers
-* - Git
-* - GitHub
-* - Nginx
-* - Ingress
-* - Sqllite
-* - Langchain
-* - Hugging Face models
+*  Python
+*  FastAPI
+*  Docker
+*  Kubernetes
+*  AWS EC2
+*  Qdrant
+*  Sentence Transformers
+*  Git
+*  GitHub
+*  Nginx
+*  Ingress
+*  Sqllite
+*  Langchain
+*  Hugging Face models
 
 ---
 
