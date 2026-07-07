@@ -12,33 +12,33 @@
 
 * **Name:** Anurag Kashyap
 
-**Email ID:** anuragkumar1658@gmail.com
+* **Email ID:** anuragkumar1658@gmail.com
 
-**College Name:** Chhatrapati Shahu Ji Maharaj University Kanpur
+* **College Name:** Chhatrapati Shahu Ji Maharaj University Kanpur
 
-**Branch/Specialization:** BCA (Bachelor of Computer Applications) 
+* **Branch/Specialization:** BCA (Bachelor of Computer Applications) 
 
-**College ID:** 
+* **College ID:** 
 
 ---
 
 # Course Details
 
-**Course Opted:** Cloud Computing and DevOps
+* **Course:** Cloud Computing and DevOps
 
-**Instructor Name:** Mr. Ujjwal Pratap Singh
+* **Instructor Name:** Mr. Ujjwal Pratap Singh
 
-**Duration:** 3 Months
+* **Duration:** 3 Months
 
 ---
 
 # Trainer Details
 
-**Trainer Name:** Mr. Ujjwal Pratap Singh 
+* **Trainer Name:** Mr. Ujjwal Pratap Singh 
 
-**Trainer Email ID:** director@nexaskilllab.com 
+* **Trainer Email ID:** director@nexaskilllab.com 
 
-**Trainer Designation:** Director and Mentor
+* **Trainer Designation:** Director and Mentor
 
 ---
 
@@ -50,19 +50,19 @@ This journey helped me understand how modern applications are built, deployed, a
 
 ---
 # Technical Skills Gained
-**Cloud Computing:** Worked with AWS EC2 to launch and manage virtual servers and used AWS S3 for static website hosting and object storage.
-**Web Servers & Networking:** Configured Nginx as a web server and reverse proxy to efficiently route application traffic.
-**Containerization:** Built and deployed applications using Docker and managed multi-container applications with Docker Compose.
-**Container Orchestration:** Learned to create Kubernetes clusters, write deployment manifests, and manage containerized applications using Kubernetes (K8s).
-**Linux & Databases:** Strengthened my Linux command-line skills and learned how to migrate application data from JSON files to SQLite for better data management.
+* **Cloud Computing:** Worked with AWS EC2 to launch and manage virtual servers and used AWS S3 for static website hosting and object storage.
+* **Web Servers & Networking:** Configured Nginx as a web server and reverse proxy to efficiently route application traffic.
+* **Containerization:** Built and deployed applications using Docker and managed multi-container applications with Docker Compose.
+* **Container Orchestration:** Learned to create Kubernetes clusters, write deployment manifests, and manage containerized applications using Kubernetes (K8s).
+* **Linux & Databases:** Strengthened my Linux command-line skills and learned how to migrate application data from JSON files to SQLite for better data management.
 
 # Key Learnings & Engineering Mindset
 Working on the 3-Tier ScholarRAG Project taught me valuable lessons beyond coding:
 
-**Automation & Deployment:** I learned how to automate application deployment using Docker and Kubernetes instead of setting everything up manually.
-**Architecture-First Thinking:** Before writing code, I learned the importance of planning system architecture, understanding data flow, and designing how different services work together.
-**Team Collaboration:** Working closely with teammates helped me solve technical challenges, discuss different approaches, and improve the project through teamwork.
-**Problem Solving:** I became more confident in debugging issues, learning from mistakes, and continuously improving my technical skills with proper guidance and documentation.
+* **Automation & Deployment:** I learned how to automate application deployment using Docker and Kubernetes instead of setting everything up manually.
+* **Architecture-First Thinking:** Before writing code, I learned the importance of planning system architecture, understanding data flow, and designing how different services work together.
+* **Team Collaboration:** Working closely with teammates helped me solve technical challenges, discuss different approaches, and improve the project through teamwork.
+* **Problem Solving:** I became more confident in debugging issues, learning from mistakes, and continuously improving my technical skills with proper guidance and documentation.
 
 # Projects Completed
 
@@ -74,13 +74,13 @@ Working on the 3-Tier ScholarRAG Project taught me valuable lessons beyond codin
 
 ### My Contributions
 
-- Database Engineering (JSON to SQLite)
-- Nginx Reverse Proxy Configuration
-- Containerization (Docker)
-- Kubernetes Deployment
-- YAML Manifest Configuration
-- Architecture Design & Triage
-- Git & GitHub Collaboration
+* - Database Engineering (JSON to SQLite)
+* - Nginx Reverse Proxy Configuration
+* - Containerization (Docker)
+* - Kubernetes Deployment
+* - YAML Manifest Configuration
+* - Architecture Design & Triage
+* - Git & GitHub Collaboration
 
 ---
 
@@ -102,20 +102,20 @@ ScholarRAG
 
 # Technologies Used
 
-- Python
-- FastAPI
-- Docker
-- Kubernetes
-- AWS EC2
-- Qdrant
-- Sentence Transformers
-- Git
-- GitHub
-- Nginx
-- Ingress
-- Sqllite
-- Langchain
-- Hugging Face models
+* - Python
+* - FastAPI
+* - Docker
+* - Kubernetes
+* - AWS EC2
+* - Qdrant
+* - Sentence Transformers
+* - Git
+* - GitHub
+* - Nginx
+* - Ingress
+* - Sqllite
+* - Langchain
+* - Hugging Face models
 
 ---
 
